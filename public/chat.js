@@ -33,13 +33,21 @@ function deleteFirstParrafo(){
     }
 }
 
+function playAudio(text){
+    const synth = window.speechSynthesis
+    const utterThis = new SpeechSynthesisUtterance(text)
+    synth.speak(utterThis)
+}
+
+
 function printParrafo(data){
     output.innerHTML = `
         <p>
             <strong>${data.username}</strong>: ${data.message}
         </p>
     `
-    setTimeout(deleteFirstParrafo, 3000);
+    playAudio(data.message)
+    setTimeout(deleteFirstParrafo, 10000);
 }
 
 socket.on('chat:message', function(data){
