@@ -13,9 +13,9 @@ body {
   color: #555;
 }
 
-#output p {
-  font-size: large;
-  color: #aaa;
+#output h1 {
+  /* font-size: large; */
+  color: #ffffff;
   padding: 14px 0;
   margin: 0 20px;
   word-wrap: break-word;

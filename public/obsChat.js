@@ -17,11 +17,9 @@ function printParrafo(data) {
   output.innerHTML = `
     <center>
       <img width=200px src='donaciones.gif'>
-      <h2>${data.username} gracias por tu donación de S/ ${data.donation}:</h2>
+      <h1>${data.username} gracias por tu donación de S/ ${data.donation}:</h1>
     </center>
-    <p>
-      <strong>Mensaje</strong>: ${data.message}
-    </p>
+    <h1>Mensaje: ${data.message}</h1>
   `;
   output.style.display = "block";
   setTimeout(deleteFirstParrafo, 10000);
