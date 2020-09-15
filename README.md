@@ -6,7 +6,7 @@ It was done because we wanted to use another payment gateway for donations (YAPE
 Each commit is a progress of the project
 
 ## Demo
-This project was used for the Facebook broadcast of a DOTA 2 tournament [Facebook Live of tournament](#)
+This project was used for the Facebook broadcast of a DOTA 2 tournament [Facebook Live of tournament](https://www.facebook.com/TUNAINGUNSA/videos/1550892088452155)
 
 ## Installation
 To install and run this project just type and execute
